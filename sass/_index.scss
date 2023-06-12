@@ -1,0 +1,17 @@
+.welcome-main {
+    background-color: $primary-color;
+    height: 92vh;
+    width: 100vw;
+}
+
+.welcome-footer {
+    background-color: $secondary-color;
+    height: 8vh;
+    width: 100vw;
+}
+
+.welcome__h1{
+    color: $secondary-color;
+    font-weight: weight('bold');
+    font-size: 5rem;
+}
