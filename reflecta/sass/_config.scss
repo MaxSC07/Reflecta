@@ -1,0 +1,32 @@
+$primary-color: #EDE7E3;
+$secondary-color: #489FB5;
+$accent-color: #FFA62B;
+
+$nunito: 'Nunito', sans-serif; 
+
+@function weight($boldness) {
+    @if (boldness == 'extralight'){
+        @return 200;
+    }
+    @else if (boldness == 'light'){
+        @return 300;
+    }
+    @else if (boldness == 'regular'){
+        @return 400;
+    }
+    @else if (boldness == 'medium'){
+        @return 500;
+    }
+    @else if (boldness == 'semibold'){
+        @return 600;
+    }
+    @else if (boldness == 'bold'){
+        @return 700;
+    }
+    @else if (boldness == 'extrabold'){
+        @return 800;
+    }
+    @else if (boldness == 'black'){
+        @return 900;
+    }
+}
