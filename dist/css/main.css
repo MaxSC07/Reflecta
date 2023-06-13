@@ -1,22 +1,28 @@
-.welcome-main {
-  background-color: #EDE7E3;
-  height: 92vh;
-  width: 100vw;
-}
+/* line 1, ../../sass/_index.scss */
+.welcome-main { background-color: #EDE7E3; height: 80vh; width: 100vw; display: flex; align-items: center; justify-content: center; }
 
-.welcome-footer {
-  background-color: #49a0b6;
-  height: 8vh;
-  width: 100vw;
-}
+/* line 10, ../../sass/_index.scss */
+.welcome-header { height: 12vh; background-color: #EDE7E3; display: flex; align-items: center; justify-content: end; }
 
-.welcome__h1 {
-  color: #49a0b6;
-}
+/* line 18, ../../sass/_index.scss */
+.welcome-footer { background-color: #49a0b6; height: 8vh; width: 100vw; }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
-}/*# sourceMappingURL=main.css.map */
+/* line 24, ../../sass/_index.scss */
+.welcome__h1 { text-align: center; color: #49a0b6; font-weight: 700; font-size: 40px; }
+
+/* line 31, ../../sass/_index.scss */
+.welcome__h3 { text-align: center; font-size: 24px; font-weight: 600; color: #49a0b6; }
+
+/* line 38, ../../sass/_index.scss */
+.welcome__div { text-align: center; height: 55px; width: 205px; background-color: #FFA62B; border-radius: 30px; font-size: 24px; font-weight: 800; color: #EDE7E3; display: flex; align-items: center; justify-content: center; margin: 0 auto; user-select: none; }
+
+/* line 54, ../../sass/_index.scss */
+.welcome-header__i { margin-right: 15px; color: #49a0b6; font-size: 50px; cursor: pointer; }
+
+/* line 61, ../../sass/_index.scss */
+.welcome { width: 70%; display: grid; grid-template-rows: repeat(2, 1fr); gap: 20px; }
+
+/* line 4, ../../sass/main.scss */
+* { padding: 0; margin: 0; box-sizing: border-box; font-family: "Nunito", sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

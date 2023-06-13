@@ -5,28 +5,29 @@ $accent-color: #FFA62B;
 $nunito: 'Nunito', sans-serif; 
 
 @function weight($boldness) {
-    @if (boldness == 'extralight'){
+    @if ($boldness == 'extralight'){
         @return 200;
     }
-    @else if (boldness == 'light'){
+    @else if ($boldness == 'light'){
         @return 300;
     }
-    @else if (boldness == 'regular'){
+    @else if ($boldness == 'regular'){
         @return 400;
     }
-    @else if (boldness == 'medium'){
+    @else if ($boldness == 'medium'){
         @return 500;
     }
-    @else if (boldness == 'semibold'){
+    @else if ($boldness == 'semibold'){
         @return 600;
     }
-    @else if (boldness == 'bold'){
+    @else if ($boldness == 'bold'){
         @return 700;
     }
-    @else if (boldness == 'extrabold'){
+    @else if ($boldness == 'extrabold'){
         @return 800;
     }
-    @else if (boldness == 'black'){
+    @else if ($boldness == 'black'){
         @return 900;
     }
+    @return 0;
 }
