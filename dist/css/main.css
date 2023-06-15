@@ -1,61 +1,225 @@
-/* line 1, ../../sass/_index.scss */
-.welcome-main { background-color: #EDE7E3; height: 80vh; width: 100vw; display: flex; align-items: center; justify-content: center; }
+.welcome-main {
+  background-color: #EDE7E3;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
-/* line 9, ../../sass/_index.scss */
-.welcome-header { background-color: #EDE7E3; height: 12vh; display: flex; align-items: center; justify-content: end; }
+.welcome-header {
+  background-color: #EDE7E3;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: end; }
 
-/* line 14, ../../sass/_index.scss */
-.welcome-footer { background-color: #49a0b6; height: 8vh; width: 100vw; }
+.welcome-footer {
+  background-color: #49a0b6;
+  height: 8vh;
+  width: 100vw; }
 
-/* line 19, ../../sass/_index.scss */
-.welcome__h1 { text-align: center; color: #49a0b6; font-weight: 700; font-size: 40px; }
+.welcome__h1 {
+  text-align: center;
+  color: #49a0b6;
+  font-weight: 700;
+  font-size: 40px; }
 
-/* line 26, ../../sass/_index.scss */
-.welcome__h3 { text-align: center; font-size: 24px; font-weight: 600; color: #49a0b6; }
+.welcome__h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #49a0b6; }
 
-/* line 33, ../../sass/_index.scss */
-.welcome__div { text-align: center; height: 55px; width: 205px; background-color: #FFA62B; border-radius: 30px; font-size: 24px; font-weight: 800; color: #EDE7E3; display: flex; align-items: center; justify-content: center; margin: 0 auto; user-select: none; }
+.welcome__div {
+  text-align: center;
+  height: 55px;
+  width: 205px;
+  background-color: #FFA62B;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #EDE7E3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  user-select: none; }
 
-/* line 49, ../../sass/_index.scss */
-.welcome-header__i { color: #49a0b6; margin-right: 15px; font-size: 50px; cursor: pointer; }
+.welcome-header__i {
+  color: #49a0b6;
+  margin-right: 15px;
+  font-size: 50px;
+  cursor: pointer; }
 
-/* line 54, ../../sass/_index.scss */
-.welcome { width: 70%; display: grid; grid-template-rows: repeat(2, 1fr); gap: 20px; }
+.welcome {
+  width: 70%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px; }
 
-/* line 1, ../../sass/_register.scss */
-.register-main { background-color: #49a0b6; height: 80vh; width: 100vw; display: flex; justify-content: center; }
+.register-main {
+  background-color: #49a0b6;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center; }
 
-/* line 8, ../../sass/_register.scss */
-.register-header { background-color: #49a0b6; height: 12vh; display: flex; align-items: center; justify-content: end; }
+.register-header {
+  background-color: #49a0b6;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: end; }
 
-/* line 13, ../../sass/_register.scss */
-.register-footer { background-color: #EDE7E3; height: 8vh; width: 100vw; }
+.register-footer {
+  background-color: #EDE7E3;
+  height: 8vh;
+  width: 100vw; }
 
-/* line 18, ../../sass/_register.scss */
-.register-header__i { margin-right: 15px; font-size: 50px; cursor: pointer; color: #EDE7E3; }
+.register-header__i {
+  margin-right: 15px;
+  font-size: 50px;
+  cursor: pointer;
+  color: #EDE7E3; }
 
-/* line 23, ../../sass/_register.scss */
-.register { width: 60%; }
+.register {
+  width: 60%; }
 
-/* line 27, ../../sass/_register.scss */
-.register__h1 { text-align: center; width: 100%; font-size: 38px; font-weight: 700; color: #EDE7E3; }
+.register__h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 38px;
+  font-weight: 700;
+  color: #EDE7E3; }
 
-/* line 35, ../../sass/_register.scss */
-.input-fields__input--register { width: 100%; height: 50px; border-radius: 10px; /* offset-x | offset-y | blur-radius | color */ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25); }
+.input-fields__input--register {
+  background-color: #EDE7E3;
+  font-weight: 600;
+  color: #49a0b6;
+  font-size: 20px;
+  padding: 0px 15px;
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15); }
 
-/* line 43, ../../sass/_register.scss */
-.input-fields__p--register { width: 100%; font-size: 24px; font-weight: 700; color: #EDE7E3; align-items: end; display: flex; align-items: end; padding-bottom: 5px; }
+.input-fields__p--register {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  color: #EDE7E3;
+  align-items: end;
+  display: flex;
+  align-items: end;
+  padding-bottom: 5px; }
 
-/* line 54, ../../sass/_register.scss */
-.register__div { text-align: center; height: 55px; width: 205px; background-color: #FFA62B; border-radius: 30px; font-size: 24px; font-weight: 800; color: #EDE7E3; display: flex; align-items: center; justify-content: center; margin: 0 auto; user-select: none; }
+.register__div {
+  text-align: center;
+  height: 55px;
+  width: 205px;
+  background-color: #FFA62B;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #EDE7E3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  user-select: none; }
 
-/* line 70, ../../sass/_register.scss */
-.input-fields--register { width: 100%; display: grid; grid-template-rows: repeat(7, 1fr); margin-bottom: 20px; }
+.input-fields--register {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  margin-bottom: 40px; }
 
-/* line 5, ../../sass/main.scss */
-* { padding: 0; margin: 0; box-sizing: border-box; font-family: "Nunito", sans-serif; }
+.login-main {
+  background-color: #49a0b6;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center; }
 
-/* line 12, ../../sass/main.scss */
-input { outline: none; border: none; }
+.login-header {
+  background-color: #49a0b6;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: end; }
+
+.login-footer {
+  background-color: #EDE7E3;
+  height: 8vh;
+  width: 100vw; }
+
+.login-header__i {
+  margin-right: 15px;
+  font-size: 50px;
+  cursor: pointer;
+  color: #EDE7E3; }
+
+.login {
+  width: 60%; }
+
+.login__h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 38px;
+  font-weight: 700;
+  color: #EDE7E3; }
+
+.input-fields__input--login {
+  background-color: #EDE7E3;
+  font-weight: 600;
+  color: #49a0b6;
+  font-size: 20px;
+  padding: 0px 15px;
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15); }
+
+.input-fields__p--login {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  color: #EDE7E3;
+  align-items: end;
+  display: flex;
+  align-items: end;
+  padding-bottom: 5px; }
+
+.login__div {
+  text-align: center;
+  height: 55px;
+  width: 205px;
+  background-color: #FFA62B;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #EDE7E3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  user-select: none; }
+
+.input-fields--login {
+  padding-top: 35px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  margin-bottom: 20px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif; }
+
+input {
+  outline: none;
+  border: none; }
 
 /*# sourceMappingURL=main.css.map */
