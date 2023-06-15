@@ -31,3 +31,27 @@ $nunito: 'Nunito', sans-serif;
     }
     @return 0;
 }
+
+@mixin header-mobile {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+@mixin main-mobile {
+    height: 80vh;
+    width: 100vw;
+    
+}
+
+@mixin footer-mobile {
+    height: 8vh;
+    width: 100vw;
+}
+
+@mixin menu-icon {
+    margin-right: 15px;
+    font-size: 50px;
+    cursor: pointer;
+}

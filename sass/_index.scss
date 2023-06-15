@@ -1,24 +1,19 @@
 .welcome-main {
     background-color: $primary-color;
-    height: 80vh;
-    width: 100vw;
+    @include main-mobile;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .welcome-header{
-    height: 12vh;
     background-color: $primary-color;
-    display: flex;
-    align-items: center;
-    justify-content: end;
+    @include header-mobile;
 }
 
 .welcome-footer {
     background-color: $secondary-color;
-    height: 8vh;
-    width: 100vw;
+    @include footer-mobile;
 }
 
 .welcome__h1{
@@ -52,10 +47,8 @@
 }
 
 .welcome-header__i{
-    margin-right: 15px;
     color: $secondary-color;
-    font-size: 50px;
-    cursor: pointer;
+    @include menu-icon;
 }
 
 .welcome {
