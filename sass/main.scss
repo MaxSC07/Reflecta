@@ -10,7 +10,31 @@
     font-family: $nunito;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 input {
     outline: none;
     border: none;
+}
+
+.white-menu {
+    @include menu($primary-color)
+}
+
+.white-menu__a {
+    @include menu__a($secondary-color)
+}
+
+.blue-menu {
+    @include menu($secondary-color)
+}
+
+.blue-menu__a {
+    @include menu__a($primary-color)
+}
+
+.active {
+    transform: translateX(0%);
 }
