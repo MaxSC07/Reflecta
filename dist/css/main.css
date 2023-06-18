@@ -136,6 +136,9 @@
   grid-template-rows: repeat(6, 1fr);
   margin-bottom: 40px; }
 
+.register__div {
+  cursor: pointer; }
+
 .login-main {
   background-color: #49a0b6;
   height: 80vh;
@@ -214,6 +217,9 @@
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   margin-bottom: 20px; }
+
+.login__div {
+  cursor: pointer; }
 
 * {
   padding: 0;
